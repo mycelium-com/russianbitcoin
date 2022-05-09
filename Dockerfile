@@ -1,6 +1,6 @@
 FROM alpine:3
 
-ENV RELEASE_URL=https://github.com/nationalbitcoin/russianbitcoin/releases/download/v1.0.6.0/russianbitcoin-1.0.6.0-amd64-linux-gnu.tar.gz
+ENV RELEASE_URL=https://github.com/nationalbitcoin/russianbitcoin/releases/download/v1.0.7.0/russianbitcoin-1.0.7.0-amd64-linux-gnu.tar.gz
 
 RUN apk add --no-cache wget tar \
   && wget --quiet -O- $RELEASE_URL | tar -xzv \
